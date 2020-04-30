@@ -1,4 +1,4 @@
-FROM nginx:1.18.0
+FROM nginx
 MAINTAINER dkey
 ADD nginx.conf /usr/local/nginx/conf/nginx.conf
 ADD nginx.conf /etc/nginx/nginx.conf
